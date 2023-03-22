@@ -26,9 +26,9 @@ Clone the project
   git clone https://github.com/Demogorgon24242/LunarModel_Oneapi.git
 ```
 
-"*" Go to the project directory
-"*" Download the dataset using kaggle api or website and provide proper path details
-"*" Execute all the cells
+* Go to the project directory
+* Download the dataset using kaggle api or website and provide proper path details
+* Execute all the cells
 
 ## Run on Intel Devcloud
 
@@ -37,12 +37,12 @@ Clone the project
 3) Launch with JupyterLab Notebook and follow the video "https://youtu.be/Cz32tlMs78c" to install additional libraries
   (if not working then open the console and use "git clone -b 2023.0.0 https://github.com/oneapi-src/oneAPI-samples.git" in terminal and cd oneapi_samples )
 4) In order to download the dataset in intel devcloud using kaggle
-    "*" open a new terminal using the add console button
-    "*" create a new directory using "mkdir .kaggle" 
-    "*" upload the kaggle.json file in the intel devcloud profile downloaded from the kaggle profile 
-    "*" cp kaggle.json .kaggle
-    "*" then go to notebook and execute the command "pip install kaggle"
-    "*" Execute the command "kaggle -d (link of kaggle)"
+    * open a new terminal using the add console button
+    * create a new directory using "mkdir .kaggle" 
+    * upload the kaggle.json file in the intel devcloud profile downloaded from the kaggle profile 
+    * cp kaggle.json .kaggle
+    * then go to notebook and execute the command "pip install kaggle"
+    * Execute the command "kaggle -d (link of kaggle)"
 5) Make the necessary changes to the path of the directories in the notebook
 6) Finally create a notebook and upload the above notebook to run and execute the cells
 
